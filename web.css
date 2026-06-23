@@ -1,0 +1,93 @@
+body {
+    background-color: pink;
+    color: purple
+}
+
+header {
+    font-family: 'League Spartan', 'Times New Roman', Times, serif;
+
+}
+
+#para {
+    font-family: 'Josefin Sans', 'Candara', sans-serif;
+    font-size: 25px;
+}
+
+#subheading {
+    font-family: 'League Spartan', 'Times New Roman', Times, serif;
+    font-size: 27px;
+}
+
+#heading {
+    font-family: 'League Spartan', 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+footer {
+    font-family: 'League Spartan', 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    margin-top: 8px;
+}
+
+.card {
+    background-color: #f7a8c4;
+    border-radius: 16px;
+    padding: 24px;
+    width: 280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Josefin Sans', 'Candara', sans-serif;
+}
+
+.card h3 {
+    font-family: 'League Spartan', 'Times New Roman', Times, serif;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: purple;
+}
+
+.tech {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+.card-links {
+    margin-top: 14px;
+}
+
+.card-links a {
+    background-color: purple;
+    color: pink;
+    padding: 6px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.card-links a:hover {
+    opacity: 0.8;
+}
+
+.h2 {
+    margin: 40px 0 8px;
+}
